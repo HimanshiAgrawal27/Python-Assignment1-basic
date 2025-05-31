@@ -1,1 +1,1 @@
-# Python-Assignment1-basic
+# Python-basic code for beginners along with theory concept
