@@ -1,0 +1,120 @@
+ DA - Introduction to Python 
+1) What are the types of Applications? 
+Ans:- Applications are based on its purpose,platform and delivery methods..Applications such as
+      web applications,mobile application,desktop application...
+	  
+2) What is programing? 
+Ans:- Programming is a set of instruction or code written by user and deliver to the computer to 
+     perform specific task...
+
+3) What is Python?
+Ans:- Python is a high-level, general-purpose programming language known for its 
+    readability and simplicity.It was created by Guido van Rossum, and released in 1991.
+
+7) How memory is managed in Python?
+Ans:- Python manages memory automatically using a combination of techniques, primarily reference 
+		counting and a garbage collector..
+
+8) What is the purpose continuing statement in python? 
+Ans:- The continue keyword is used to end the current iteration in a for loop (or a while loop),
+		and continues to the next iteration.
+		
+17)What are negative indexes and why are they used? 
+Ans:- Negative indexing is used in Python to manipulate sequence objects such as lists, arrays, 
+	strings, etc. Negative indexing retrieves elements from the end by providing negative 
+	numbers as sequence indexes.		
+
+25) What is List? How will you reverse a list? 
+Ans:- Lists are used to store multiple items in a single variable.Its orderable,mutuable 
+		and allow duplicate value.The reverse() method reverses the elements of the list in-place 
+		and it modify the original list without creating a new list. 
+		
+26) How will you remove last object from a list? 		
+Ans:- If there are more than one item with the specified value, the remove() method removes 
+	the first occurrence.The pop() method removes the last item from the list.
+
+27) Suppose list1 is [2, 33, 222, 14, and 25], what is list1 [-1]?
+Ans:- The element at index (-1) in list1 is (25).
+
+28) Differentiate between append () and extend () methods? 	
+Ans:- append() adds a single element to the end of a list, whereas extend() adds all elements
+	from an iterable (like another list, tuple, or string) to the end of the list. 
+	
+30) How will you compare two lists?
+Ans:- The == operator compares the two lists item by item which means they have equal 
+		data items at equal positions.	
+		
+43) What is tuple? Difference between list and tuple. 		
+Ans:- Tuple are used to store multiple items in a single variable.Its orderable,immutuable 
+		and allow duplicate value. 
+		
+47) How will you create a dictionary using tuples in python?
+Ans:- If the tuples are in the form of key-value pairs, a dictionary can be created directly
+		using the dict() constructor or by using curly braces {}.		
+		
+51) How Do You Traverse Through a Dictionary Object in Python? 
+Ans:- Dictionary can be traversed using a for loop in several ways, depending on whether
+		you need to access the keys, values, or both.
+		
+52) How Do You Check the Presence of a Key in A Dictionary?
+Ans:- The in operator returns True if the key is present and False otherwise.
+
+65) How Many Basic Types of Functions Are Available in Python?  
+Ans:- There are two types of functions in python: User-Defined Functions - these types of 
+		functions are defined by the user to perform any specific task. Built-in Functions - These  
+		are pre-defined functions in python such as print(),type(),len().		
+		
+66) How can you pick a random item from a list or tuple?
+Ans:- Generate a random item from the tuple or list using random. choice() method.
+
+67) How can you pick a random item from a range? 
+Ans:- Use the random.randrange() function(Returns a random number within the specified range)
+		to generate a random number within the given range by passing minimum, and maximum numbers
+		as arguments.		
+		
+68) How can you get a random number in python? 	
+Ans:- The randint() method returns an integer number selected element from the specified range.	
+		
+69) How will you set the starting value in generating random numbers?	
+Ans:- To set the starting value, or seed, for generating random numbers in Python, the 
+		random.seed() function is used.	
+		
+70) How will you randomize the items of a list in place? 
+Ans:- shuffle() function is simplest way to shuffle a list in-place. It directly modifies the
+		list and doesn't return a new list.
+
+71) What is File function in python? What are keywords to create and write file. 
+Ans:- File handling in Python involves using built-in functions to create, open, read, write,
+		and close files. "w" - Write - Opens a file for writing, creates the file if it does 
+		not exist.
+		
+83) Explain Exception handling? What is an Error in Python?	
+Ans:- Exception handling in Python is a mechanism to manage runtime errors, known as exceptions,
+		that can disrupt the normal flow of a program. It allows the program to continue execution even 
+		if an error occurs. This is achieved using try, except, else, and finally blocks.
+
+84) How many except statements can a try-except block have? Name Some built-in exception classes:
+Ans:- It is possible to have multiple except blocks for one try block. Some built-in exception
+		classes are ValueError,ZeroDivisionError.
+		
+85) When will the else part of try-except-else be executed? 
+Ans:- The else part of a try-except-else block in Python is executed only when no exceptions
+		are raised within the try block. 		
+		
+86) Can one block of except statements handle multiple exception?
+Ans:- Yes, one except block can handle multiple exceptions.
+
+87) When is the finally block executed? 
+Ans:- The finally block is executed after the try block exits, regardless of whether an 
+		exception was thrown or caught.
+		
+88) What happens when „1‟== 1 is executed? 
+Ans:-  In Python, '1' is a string and 1 is an integer. Comparing them using == returns False, 
+		because they are of different data types and do not hold the same value in Python's
+		type system.		
+		
+		
+		
+
+	
+		
